@@ -20,14 +20,25 @@ private:
 class Turtle : public Animal {
 public:
 	Turtle():
-	Animal("turtle turtle turtle")
+	Animal("\U0001F422  turtle turtle turtle")
 	{}
-
 
 	int GetPower() { return 7; };
 
 };
 
 // Define your animals here
+
+class Cat : public Animal {
+public:
+	Cat():
+	Animal("\U0001F431  meoooooow~")
+	{}
+
+	int GetPower() { return 10; };
+	std::string AngryCat() { return "\U0001F63E  hissss!"; };
+	std::string HappyCat() { return "\U0001F638  purr~"; };
+
+};
 
 #endif  // _ANIMAL_H_

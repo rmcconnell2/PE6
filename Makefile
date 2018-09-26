@@ -5,5 +5,5 @@ all: main
 
 clean: rm main
 
-main: main\ copy.cpp
-	$(CXX) $(CXXFLAGS) main\ copy.cpp -o main
+main: main.cpp
+	$(CXX) $(CXXFLAGS) main.cpp -o main

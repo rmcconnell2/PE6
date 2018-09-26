@@ -13,4 +13,3 @@ void Animal::Fight(Animal &opponent) {
 		std::cout << opponent.MakeSound() << std::endl;
 	}
 }
-

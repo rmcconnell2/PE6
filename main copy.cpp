@@ -7,5 +7,9 @@ int main() {
 
 	std::cout << turtle_friend.MakeSound() << std::endl;
 
+	Lion lion;
+
+	std::cout << lion.MakeSound() << std::endl;
+
 	return 0;
 }
